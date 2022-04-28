@@ -1,0 +1,36 @@
+capital = 378
+
+OOB = "PSA_1936"
+
+set_technology = {
+	infantry_weapons = 4
+	tech_support = 4
+	tech_recon = 4
+}
+
+recruit_character = PSA_guber_Yamori
+recruit_character = PSA_beber_beber
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}
+
+create_country_leader = {
+	
+	name = "Yamori"
+	picture = gfx/leaders/PSA/Portrait_PSA_Yamori.dds
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		compassionate_gentleman
+	}
+
+set_convoys = 780
+

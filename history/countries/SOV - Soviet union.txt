@@ -1,0 +1,36 @@
+﻿capital = 570
+
+OOB = "SOV_1939"
+
+set_technology = {
+	infantry_weapons = 4
+	tech_support = 4
+	tech_recon = 4
+}
+
+recruit_character = SOV_Rodion_Malinovsky
+
+
+set_politics = {
+	ruling_party = soviet_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 93
+	democratic = 7
+}
+
+create_country_leader = {
+
+    name = "Rodion Malinovksy"
+    picture = gfx/leaders/SOV/Portrait_Rodion_Malinovsky.dds
+    expire = "1966.1.1"
+    ideology = stalinism
+    traits = {
+        dislikes_germany
+    }
+
+set_convoys = 3
+

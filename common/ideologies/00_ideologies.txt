@@ -1,0 +1,510 @@
+ideologies = {
+	
+	soviet_socialism = {
+	
+		types = {
+		
+			marxism_leninism = {
+			}
+			
+			stalinism = {
+			}
+			
+			left_commitee = {
+			}
+			
+			national_communism = {
+			}
+			
+			ultra_antifascism = {
+			}
+			
+			partisanism = {
+			}
+			
+			left_afrikanerism = {
+			}
+			
+			left_baathism = {
+			}
+			
+			revolutional_movement = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	ideologies = {
+	
+	vanguardism = {
+	
+		types = {
+		
+			neocommunism = {
+			}
+			
+			european_communism = {
+			}
+			
+			reformist_communism = {
+			}
+			
+			syndicalism = {
+			}
+			
+			young_communism = {
+			}
+			
+			classic_anarchism = {
+			}
+			
+			marxist_anarchism = {
+			}
+			
+			left_anarchism = {
+			}
+			
+			left_labourism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	social_democracy = {
+	
+		types = {
+		
+			classic_social_democracy = {
+			}
+			
+			social_democracy = {
+			}
+			
+			left_individualism = {
+			}
+			
+			social_libertarian = {
+			}
+			
+			antifascism = {
+			}
+			
+			democratic_labourism = {
+			}
+			
+			young_democracy = {
+			}
+			
+			social_reformism = {
+			}
+			
+			left_agrarianism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	centrism = {
+	
+		types = {
+		
+			authotaritarism = {
+			}
+			
+			civil_dictatorship = {
+			}
+			
+			interregnum_movement = {
+			}
+			
+			regency_system = {
+			}
+			
+			conservativism = {
+			}
+			
+			social_nationalism = {
+			}
+			
+			left_stratocracy = {
+			}
+			
+			hunta = {
+			}
+			
+			controlled_liberalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	right_wing_populism = {
+	
+		types = {
+		
+			nationalism = {
+			}
+			
+			high_tories = {
+			}
+			
+			neoreaction = {
+			}
+			
+			accelerationism = {
+			}
+			
+			monarchism = {
+			}
+			
+			national_conservativism = {
+			}
+			
+			reformed_fascsm = {
+			}
+			
+			coloborated_goverment = {
+			}
+			
+			aristocratic_movement = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
+	corporativism = {
+	
+		types = {
+		
+			italian_coropativism = {
+			}
+			
+			benito_socialism = {
+			}
+			
+			japanese_syndicalism = {
+			}
+			
+			national_bolshevism = {
+			}
+			
+			ultra_capitalism = {
+			}
+			
+			militarism = {
+			}
+			
+			classic_fascism = {
+			}
+			
+			corporatocracy = {
+			}
+			
+			reformed_nazism = {
+			}
+			
+			anarcho_capitalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	national_socialism = {
+	
+		types = {
+		
+			classical_nazism = {
+			}
+			
+			ultrafascism = {
+			}
+			
+			ultranationalism = {
+			}
+			
+			eurasianism = {
+			}
+			
+			fanatism = {
+			}
+			
+			ezoteric_nazism = {
+			}
+			
+			spartanism = {
+			}
+			
+			militarist_nazism = {
+			}
+			
+			ss_vision_nazism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

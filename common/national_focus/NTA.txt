@@ -1,0 +1,324 @@
+focus_tree = {
+	id = NTA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NTA
+		}
+	}
+	default = no
+	focus = {
+		id = Prologue
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = NTA_StayN
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = NTA_JoinJ
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_JoinG
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = NTA_JoinG
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_JoinJ
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = NTA_PolitC
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_PolitNZ
+			focus = NTA_PolitD
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = NTA_EconomicFinal
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 14
+
+	}
+	focus = {
+		id = NTA_PolitF
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_PolitD
+			focus = NTA_PolitN
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = NTA_PolitD
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_PolitC
+			focus = NTA_PolitF
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = NTA_PolitN
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_PolitF
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = NTA_PolitNZ
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = NTA_PolitC
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = NTA_PactJ
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_StayN
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = NTA_PactG
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_StayN
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = NTA_NoN
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_PolitC
+		}
+		prerequisite = {
+			focus = NTA_PolitF
+		}
+		prerequisite = {
+			focus = NTA_PolitD
+		}
+		prerequisite = {
+			focus = NTA_PolitN
+		}
+		prerequisite = {
+			focus = NTA_PolitNZ
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = NTA_Prologue
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = NTA_NoN
+		}
+		prerequisite = {
+			focus = NTA_StayN
+		}
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = NTA_SmallW
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallW2
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = NTA_Economic
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = NTA_EconomicW
+		}
+		prerequisite = {
+			focus = NTA_EconomicF
+		}
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = NTA_SmallF
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallF2
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = NTA_DemobilizeE
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_PactJ
+		}
+		prerequisite = {
+			focus = NTA_PactG
+		}
+		prerequisite = {
+			focus = NTA_Infra1
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = NTA_SmallF2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallF3
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = NTA_SmallW2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallW3
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = NTA_EconomicF
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallW
+		}
+		mutually_exclusive = {
+			focus = NTA_EconomicW
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = NTA_EconomicW
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_SmallF
+		}
+		mutually_exclusive = {
+			focus = NTA_EconomicF
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = NTA_SmallW3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_EconomicFinal
+		}
+		x = 1
+		y = 10
+
+	}
+	focus = {
+		id = NTA_SmallF3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_EconomicFinal
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = NTA_Infra1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_Infra2
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = NTA_Infra2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NTA_JoinJ
+		}
+		prerequisite = {
+			focus = NTA_JoinG
+		}
+		x = 10
+		y = 11
+
+	}
+}

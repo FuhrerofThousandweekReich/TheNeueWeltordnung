@@ -1,0 +1,37 @@
+
+state={
+	id=219
+	name="STATE_219"
+	manpower = 9321551
+	
+	state_category = megapolis
+	resources={
+		steel=8 # was: 28
+	}
+
+	history={
+		owner = MSC
+		victory_points = {
+			6380 53 
+		}
+		buildings = {
+			infrastructure = 9 #was: 8
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = MSC
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		301 350 366 401 3259 3290 3327 3358 3391 6283 6290 6348 6380 6414 9235 9282 9302 9348 9378 9395 11217 11236 11268 11282 11330 
+	}
+
+	local_supplies=6.0 
+}

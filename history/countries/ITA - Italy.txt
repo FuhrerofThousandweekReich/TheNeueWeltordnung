@@ -1,0 +1,120 @@
+﻿capital = 2
+
+OOB = "ITA_1939"
+
+set_technology = {
+	infantry_weapons = 4
+	tech_support = 4
+	tech_recon = 4
+}
+
+recruit_character = ITA_Benito_Mussolini
+
+create_faction = roma
+add_to_faction = SER
+add_to_faction = BOS
+add_to_faction = GRE
+add_to_faction = BUL
+add_to_faction = TUR
+add_to_faction = SYR
+add_to_faction = PAL
+add_to_faction = IRQ
+add_to_faction = JOR
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = ETH
+		autonomous_state = autonomy_colony
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = SUD
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PAL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = BOS
+		puppet = SER
+	}
+}
+
+if = {
+	limit = { 
+		not = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Together for Victory"
+		}
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ETH
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = SUD
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = PAL
+		autonomous_state = autonomy_puppet
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+
+    name = "Benito Mussolini"
+    picture = gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        dictator stout_defender great_survivor
+    }
+
+set_convoys = 380
+

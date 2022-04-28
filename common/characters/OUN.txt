@@ -1,0 +1,17 @@
+characters = {
+	OUN_Bandera = {
+		name = "Stepan Bandera" 
+		portraits = {
+			civilian = {
+				large = gfx/leaders/OUN/Portrait_OUN_Bandera.dds
+
+			}
+		}
+		country_leader = {
+			ideology =fascism_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

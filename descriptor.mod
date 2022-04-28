@@ -1,0 +1,16 @@
+version="1.11.9"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Graphics"
+	"Historical"
+	"Ideologies"
+	"Technologies"
+	"Military"
+	"Map"
+	"National Focuses"
+}
+name="Neue Weltordnung: Legacy of the Old World"
+supported_version="1.11.9"
+remote_file_id="2783827468"

@@ -1,0 +1,16 @@
+characters = {
+	PSA_guber_Yamori = {
+		name = "Yamori" 
+		portraits = {
+			civilian = {
+				large = gfx/leaders/PSA/Portrait_PSA_Yamori.dds
+			}
+		}
+		country_leader = {
+			ideology = facism_ideology
+			expire = "1963.1.1.1"
+			id = -1
+		}
+	}
+}
+	

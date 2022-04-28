@@ -1,0 +1,16 @@
+characters = {
+	NTA_neutral_council = {
+		name = Neutral Zone Concil
+		portraits = {
+			civilian = {
+				large = gfx/leaders/NTA/Portrait_NTA_Council.dds
+			}
+		}
+		country_leader = {
+			ideology =oligarchism
+			expire = 1963.1.1.1
+			id = -1
+		}
+	}
+}
+	

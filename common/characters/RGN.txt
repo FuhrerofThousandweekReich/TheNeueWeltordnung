@@ -1,0 +1,16 @@
+characters = {
+	RGN_Edward_VIII = {
+		name = "Edward_VIII" 
+		portraits = {
+			civilian = {
+				large = gfx/leaders/RGN/Portrait_RGN_Edward_VIII.dds
+			}
+		}
+		country_leader = {
+			ideology = nacism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	

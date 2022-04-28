@@ -1,0 +1,16 @@
+characters = {
+	USA_John_Smit = {
+		name = "John Smit" 
+		portraits = {
+			civilian = {
+				large = gfx/leaders/USA/Portrait_USA_John_Smit.dds
+			}
+		}
+		country_leader = {
+			ideology = nacism
+			expire = "1963.1.1.1"
+			id = -1
+		}
+	}
+}
+	
