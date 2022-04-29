@@ -70,7 +70,6 @@ ideologies = {
 
 	}
 	
-	ideologies = {
 	
 	vanguardism = {
 	
