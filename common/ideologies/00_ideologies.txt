@@ -16,9 +16,6 @@ ideologies = {
 			national_communism = {
 			}
 			
-			ultra_antifascism = {
-			}
-			
 			partisanism = {
 			}
 			
