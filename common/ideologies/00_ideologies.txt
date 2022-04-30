@@ -139,9 +139,6 @@ ideologies = {
 			classic_social_democracy = {
 			}
 			
-			social_democracy = {
-			}
-			
 			left_individualism = {
 			}
 			
@@ -154,10 +151,7 @@ ideologies = {
 			democratic_labourism = {
 			}
 			
-			young_democracy = {
-			}
-			
-			social_reformism = {
+			progressivism = {
 			}
 			
 			left_agrarianism = {
