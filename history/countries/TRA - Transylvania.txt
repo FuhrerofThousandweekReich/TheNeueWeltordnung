@@ -56,7 +56,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -74,9 +74,9 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	social_democracy = 33
+	centrism = 33
+	soviet_socialism = 34
 }
 
 recruit_character = TRA_pot
@@ -94,7 +94,7 @@ recruit_character = TRA_ncs
 recruit_character = TRA_nt
 recruit_character = TRA_acas
 recruit_character = TRA_acd2
-recruit_character = TRA_democratic_guy
+recruit_character = TRA_social_democracy_guy
 recruit_character = TRA_mt
 recruit_character = TRA_ai2
 recruit_character = TRA_coi

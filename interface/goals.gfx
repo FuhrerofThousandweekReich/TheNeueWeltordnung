@@ -2977,4 +2977,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_approach_semyonov.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_focus_NTA_Begin"
+		texturefile = "gfx/interface/goals/focus_NTA_Begin.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_StayN"
+		texturefile = "gfx/interface/goals/focus_NTA_StayNeutral.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_JoinJ"
+		texturefile = "gfx/interface/goals/focus_NTA_JoinJ.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_JoinG"
+		texturefile = "gfx/interface/goals/focus_NTA_JoinG.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_LeftWay"
+		texturefile = "gfx/interface/goals/focus_NTA_LeftWay.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_RestoreUSA"
+		texturefile = "gfx/interface/goals/focus_NTA_DemocraticWay.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_NTA_RightWay"
+		texturefile = "gfx/interface/goals/focus_NTA_RightWay.dds"
+	}
+
 }

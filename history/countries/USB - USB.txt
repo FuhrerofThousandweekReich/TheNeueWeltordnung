@@ -173,14 +173,14 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 99
-	communism = 1
+	centrism = 99
+	soviet_socialism = 1
 }
 
 add_ideas = {
@@ -188,12 +188,12 @@ add_ideas = {
 	limited_conscription
 	free_trade
 	home_of_the_free
-	neutrality_idea
+	centrism_idea
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes

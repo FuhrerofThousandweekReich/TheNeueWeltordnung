@@ -193,7 +193,7 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = corporativism 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -346,13 +346,13 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	nacism = 100
+	national_socialism = 100
 }
 
 create_faction = Deutschen-Staaten

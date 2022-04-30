@@ -27,11 +27,11 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_communism
-#TUR_democratic
-#TUR_fascism
-#TUR_neutrality
-set_cosmetic_tag = TUR_neutrality
+#TUR_soviet_socialism
+#TUR_social_democracy
+#TUR_corporativism
+#TUR_centrism
+set_cosmetic_tag = TUR_centrism
 
 set_research_slots = 3
 
@@ -238,7 +238,7 @@ if = {
 	add_command_power = 100
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1939.2.8"
 		election_frequency = 60
 		elections_allowed = yes
@@ -396,13 +396,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	social_democracy = 6
+	centrism = 94
 }
 
 set_convoys = 20

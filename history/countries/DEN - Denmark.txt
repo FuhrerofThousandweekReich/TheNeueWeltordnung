@@ -150,21 +150,21 @@ if = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	social_democracy = 97
+	corporativism = 1
+	soviet_socialism = 2
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = social_democracy
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes

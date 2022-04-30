@@ -87,13 +87,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = no
 }
 set_popularities = {
-	fascism= 100
+	corporativism= 100
 }
 
 1939.1.1 = {

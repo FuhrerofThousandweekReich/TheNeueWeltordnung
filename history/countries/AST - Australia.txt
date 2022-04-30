@@ -256,30 +256,30 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 98
-	communism = 2
+	corporativism = 98
+	soviet_socialism = 2
 }
 
 set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = corporativism
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = no
 	}
 
 	set_popularities = {
-		fascism = 99
-		communism = 1
+		corporativism = 99
+		soviet_socialism = 1
 	}
 
 	set_convoys = 100

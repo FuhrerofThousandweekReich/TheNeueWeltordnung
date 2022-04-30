@@ -18,8 +18,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 93
-	democratic = 7
+	soviet_socialism = 93
+	social_democracy = 7
 }
 
 create_country_leader = {

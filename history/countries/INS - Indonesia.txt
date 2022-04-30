@@ -47,16 +47,16 @@ if = {
 
 set_convoys = 25
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 17
-	neutrality = 2
-	communism = 1
-	fascism = 80
+	social_democracy = 17
+	centrism = 2
+	soviet_socialism = 1
+	corporativism = 80
 }
 
 recruit_character = INS_a_t_van_starkenborgh_stachouwer

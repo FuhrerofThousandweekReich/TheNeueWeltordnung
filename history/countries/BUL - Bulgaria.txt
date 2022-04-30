@@ -6,14 +6,14 @@ set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
 set_party_name = { # DLC
-	ideology = communism
-	name = BUL_communism_party_bulgarian
-	long_name = BUL_communism_party_bulgarian_long
+	ideology = soviet_socialism
+	name = BUL_soviet_socialism_party_bulgarian
+	long_name = BUL_soviet_socialism_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
+	ideology = corporativism
+	name = BUL_corporativism_party_bulgarian
+	long_name = BUL_corporativism_party_bulgarian_long
 }
 
 if = { #DLC
@@ -23,9 +23,9 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = democratic
-		name = BUL_democratic_party_bftb
-		long_name = BUL_democratic_party_bftb_bulgarian_long
+		ideology = social_democracy
+		name = BUL_social_democracy_party_bftb
+		long_name = BUL_social_democracy_party_bftb_bulgarian_long
 	}	
 
 	###################
@@ -33,11 +33,11 @@ if = { #DLC
 	###################
 
 	#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-	#BUL_communism
-	#BUL_democratic
-	#BUL_fascism
-	#BUL_neutrality
-	set_cosmetic_tag = BUL_neutrality
+	#BUL_soviet_socialism
+	#BUL_social_democracy
+	#BUL_corporativism
+	#BUL_centrism
+	set_cosmetic_tag = BUL_centrism
 
 	#IDEAS SETUP
 	add_ideas = { #DLC
@@ -170,10 +170,10 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
+		social_democracy = 10
+		corporativism = 30
+		centrism = 55
+		soviet_socialism = 5
 	}
 
 	recruit_character = BUL_boris_iii
@@ -211,7 +211,7 @@ if = { #DLC
 	recruit_character = BUL_dimitr_ayryanov
 	recruit_character = BUL_nikola_hadzipetkov
 	recruit_character = BUL_asen_toshev
-	recruit_character = BUL_bogdan_filov_fascism
+	recruit_character = BUL_bogdan_filov_corporativism
 	recruit_character = BUL_dobri_bozhilov
 	recruit_character = BUL_dimitrana_ivanova
 	recruit_character = BUL_bogdan_filov
@@ -254,7 +254,7 @@ if = { #DLC
 
 	#RULING PARTY
 	set_politics = { #DLC
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1935.1.22"
 		election_frequency = 48
 		elections_allowed = no
@@ -268,12 +268,12 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			democratic = 5
-			fascism = 35
-			neutrality = 60
+			social_democracy = 5
+			corporativism = 35
+			centrism = 60
 		}
 		set_politics = { #VANILLA
-			ruling_party = neutrality
+			ruling_party = centrism
 			last_election = "1931.6.21"
 			election_frequency = 48
 			elections_allowed = no
@@ -324,12 +324,12 @@ set_technology = { #VANILLA & DLC
 	
 	#POLIICS
 	set_popularities = { #VANILLA & DLC
-		democratic = 5
-		fascism = 35
-		neutrality = 60
+		social_democracy = 5
+		corporativism = 35
+		centrism = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no

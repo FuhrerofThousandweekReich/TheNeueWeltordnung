@@ -89,26 +89,26 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	corporativism = 100
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = corporativism
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = no
 	}
 
 	set_popularities = {
-		fascism = 100
+		corporativism = 100
 	}
 
 }

@@ -73,7 +73,7 @@ if = {
 		value = 30
 	}
 	set_variable = {
-		var = pol_peasant_communism
+		var = pol_peasant_soviet_socialism
 		value = 30
 	}
 }
@@ -263,16 +263,16 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	nacism = 93
-	fascism = 4
-	democratic = 3
+	national_socialism = 93
+	corporativism = 4
+	social_democracy = 3
 	}
 	
 	set_stability = 0.8

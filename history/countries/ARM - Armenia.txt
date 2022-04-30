@@ -82,9 +82,9 @@ if = {
 }
 
 set_popularities = {
-	fascism = 34
-	democratic = 30
-	communism = 36
+	corporativism = 34
+	social_democracy = 30
+	soviet_socialism = 36
 }
 
 create_country_leader = {
@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Drastamat_Kanayan
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = corporativism_ideology
 	traits = {
 		
 	}

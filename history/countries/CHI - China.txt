@@ -129,14 +129,14 @@ set_convoys = 40
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	corporativism = 100
 }
 
 create_country_leader = {
@@ -144,7 +144,7 @@ create_country_leader = {
     name = "Wāng Zhàomíng"
     picture = gfx/leaders/CHI/Portrait_China_Japan_Collab.dds
     expire = "1963.1.1"
-    ideology = fascism_ideology
+    ideology = corporativism_ideology
     traits = {
         eager_collaborator man_of_the_nation dislikes_germany
     }

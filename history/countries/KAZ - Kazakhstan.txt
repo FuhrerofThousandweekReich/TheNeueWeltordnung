@@ -79,9 +79,17 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_popularities = {
-	democratic = 60
-	communism = 40
+	right_wing_populism = 4
+	social_democracy = 3
+	centrism = 3
 }
 
 create_country_leader = {
@@ -100,7 +108,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Ilyas_Zhansugurov
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = young_democracy
 	traits = {
 		
 	}
@@ -123,7 +131,7 @@ recruit_character = KAZ_nccr
 recruit_character = KAZ_fascist_guy
 recruit_character = KAZ_coi
 recruit_character = KAZ_ai2
-recruit_character = KAZ_democratic_guy
+recruit_character = KAZ_social_democracy_guy
 recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
 

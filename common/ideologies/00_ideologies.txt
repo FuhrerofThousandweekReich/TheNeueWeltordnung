@@ -16,7 +16,16 @@ ideologies = {
 			national_communism = {
 			}
 			
+			ultra_antifascism = {
+			}
+			
 			partisanism = {
+			}
+			
+			left_afrikanerism = {
+			}
+			
+			left_baathism = {
 			}
 			
 			revolutional_movement = {
@@ -139,6 +148,9 @@ ideologies = {
 			classic_social_democracy = {
 			}
 			
+			social_democracy = {
+			}
+			
 			left_individualism = {
 			}
 			
@@ -151,7 +163,10 @@ ideologies = {
 			democratic_labourism = {
 			}
 			
-			progressivism = {
+			young_democracy = {
+			}
+			
+			social_reformism = {
 			}
 			
 			left_agrarianism = {
@@ -479,16 +494,5 @@ ideologies = {
 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 
 

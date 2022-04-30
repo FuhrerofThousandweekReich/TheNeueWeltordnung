@@ -92,28 +92,28 @@ recruit_character = SWI_ernst_wetter
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	social_democracy = 96
+	corporativism = 2
+	soviet_socialism = 2
 }
 
 1939.1.1 = {
 	#next election october 39
 	set_popularities = {
-		democratic = 95
-		fascism = 2
-		communism = 3
+		social_democracy = 95
+		corporativism = 2
+		soviet_socialism = 3
 	}
 }
 
 add_ideas = {
-	neutrality_idea
+	centrism_idea
 	limited_conscription
 }
 

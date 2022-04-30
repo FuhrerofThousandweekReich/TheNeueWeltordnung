@@ -291,16 +291,16 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	nacism = 64
-	fascism = 6
-	democratic = 15
-	communism = 15
+	national_socialism = 64
+	corporativism = 6
+	social_democracy = 15
+	soviet_socialism = 15
 }
 
 add_ideas = {

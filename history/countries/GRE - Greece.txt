@@ -14,11 +14,11 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#GRE_communism
-#GRE_democratic
-#GRE_fascism
-#GRE_neutrality
-set_cosmetic_tag = GRE_neutrality
+#GRE_soviet_socialism
+#GRE_social_democracy
+#GRE_corporativism
+#GRE_centrism
+set_cosmetic_tag = GRE_centrism
 
 set_research_slots = 3
 
@@ -175,10 +175,10 @@ set_convoys = 10
 			days = 730
 		}
 		set_popularities = {
-			democratic = 10
-			fascism = 22
-			communism = 26
-			neutrality = 42
+			social_democracy = 10
+			corporativism = 22
+			soviet_socialism = 26
+			centrism = 42
 		}
 		
 		create_country_leader = {
@@ -192,7 +192,7 @@ set_convoys = 10
 			}
 		}
 	
-		set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
+		set_party_name = { ideology = centrism long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 	
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 5 }
 		set_variable = { var = GRE_debt_to_the_ifc_france_var value = 5 }
@@ -296,16 +296,16 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+	social_democracy = 43
+	corporativism = 2
+	soviet_socialism = 17
+	centrism = 38
 }
 
 set_stability = 0.72

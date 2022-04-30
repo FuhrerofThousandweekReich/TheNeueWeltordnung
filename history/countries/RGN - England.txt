@@ -12,13 +12,13 @@ recruit_character = RGN_Edward_VIII
 
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	nacism = 100
+	national_socialism = 100
 }
 
 create_country_leader = {

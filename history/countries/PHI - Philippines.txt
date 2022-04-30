@@ -109,13 +109,13 @@ recruit_character = PHI_sergio_osmena
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1935.9.15"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 82
-	neutrality = 9
-	communism = 9
+	corporativism = 82
+	centrism = 9
+	soviet_socialism = 9
 }

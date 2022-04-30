@@ -61,16 +61,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	social_democracy = 33
+	centrism = 33
+	soviet_socialism = 34
 }
 
 recruit_character = HRZ_acd2
@@ -85,7 +85,7 @@ recruit_character = HRZ_coi
 recruit_character = HRZ_acas
 recruit_character = HRZ_acgs
 recruit_character = HRZ_aa2
-recruit_character = HRZ_democratic_guy
+recruit_character = HRZ_social_democracy_guy
 recruit_character = HRZ_acr
 recruit_character = HRZ_stc
 recruit_character = HRZ_awt

@@ -88,7 +88,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	add_ideas = {
-		HOL_aloof_neutrality
+		HOL_aloof_centrism
 		HOL_shell_shocked_spectator_5
 		HOL_de_crisisjaren_5
 		HOL_weak_government
@@ -231,16 +231,16 @@ oob = "HOL_1939"
 }
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	nacism = 93
-	fascism = 4
-	democratic = 3
+	national_socialism = 93
+	corporativism = 4
+	social_democracy = 3
 }
 
 set_convoys = 150

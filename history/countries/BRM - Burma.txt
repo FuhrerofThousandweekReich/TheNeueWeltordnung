@@ -13,7 +13,7 @@ recruit_character = BRM_acgs
 recruit_character = BRM_acr
 recruit_character = BRM_stc
 recruit_character = BRM_ncm
-recruit_character = BRM_democratic_guy
+recruit_character = BRM_social_democracy_guy
 recruit_character = BRM_communist_guy
 recruit_character = BRM_coi
 recruit_character = BRM_pot
@@ -67,14 +67,14 @@ recruit_character = BRM_fascist_guy
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 72
-	neutrality = 28
+	corporativism = 72
+	centrism = 28
 }
 #create_country_leader = {
 #	

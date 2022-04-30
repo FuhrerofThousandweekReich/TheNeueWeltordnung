@@ -32,14 +32,14 @@ recruit_character = ALB_jocelyn_percy
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	corporativism = 100
 }
 
 set_convoys = 5

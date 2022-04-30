@@ -89,13 +89,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	corporativism = 100
 }
 
 create_country_leader = {
@@ -103,7 +103,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Pol_Pot
 	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
+	ideology = anarchist_soviet_socialism #insanity
 	traits = {
 		
 	}
@@ -132,5 +132,5 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on fascism
+#couldnt find anything historical on corporativism
 

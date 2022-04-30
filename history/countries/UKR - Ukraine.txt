@@ -75,16 +75,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	nacism = 93
-	fascism = 4
-	democratic = 3
+	national_socialism = 93
+	corporativism = 4
+	social_democracy = 3
 	}
 	
 	set_stability = 0.8
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Stepan_Bandera
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = corporativism_ideology
 	traits = {
 		
 	}

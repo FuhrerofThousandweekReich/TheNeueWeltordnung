@@ -243,16 +243,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = nacism
+	ruling_party = national_socialism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	nacism = 98
-	fascism = 1
-	communism = 1
+	national_socialism = 98
+	corporativism = 1
+	soviet_socialism = 1
 }
 
 set_convoys = 100

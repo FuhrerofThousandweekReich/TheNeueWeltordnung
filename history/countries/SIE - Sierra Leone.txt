@@ -21,7 +21,7 @@ recruit_character = SIE_acgs
 recruit_character = SIE_acr
 recruit_character = SIE_stc
 recruit_character = SIE_ncm
-recruit_character = SIE_democratic_guy
+recruit_character = SIE_social_democracy_guy
 recruit_character = SIE_communist_guy
 recruit_character = SIE_coi
 recruit_character = SIE_pot
@@ -74,14 +74,14 @@ recruit_character = SIE_awt
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	social_democracy = 55
+	corporativism = 15
+	soviet_socialism = 5
+	centrism = 25
 }

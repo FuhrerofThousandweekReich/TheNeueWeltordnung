@@ -158,31 +158,31 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 120
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 12
-	neutrality = 78
+	social_democracy = 5
+	corporativism = 5
+	soviet_socialism = 12
+	centrism = 78
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1937.9.5"
 		election_frequency = 108
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 5
-		fascism = 5
-		communism = 12
-		neutrality = 78
+		social_democracy = 5
+		corporativism = 5
+		soviet_socialism = 12
+		centrism = 78
 	}
 
 	recruit_character = ARG_roberto_maria_ortiz

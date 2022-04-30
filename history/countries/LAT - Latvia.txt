@@ -16,7 +16,7 @@ IF = {
 	limit = { has_dlc = "No Step Back" }
 	add_ideas = {
 		LAT_perkonkrust_idea
-		democratic_opposition
+		social_democracy_opposition
 	}
 }
 
@@ -90,7 +90,7 @@ set_convoys = 10
 	
 	remove_ideas = {
 		LAT_perkonkrust_idea
-		democratic_opposition
+		social_democracy_opposition
 	}
 	
 	set_country_flag = fought_perkonkrust_flag
@@ -160,16 +160,16 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1931.10.3"
 	election_frequency = 10
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	social_democracy = 30
+	corporativism = 15
+	soviet_socialism = 15
+	centrism = 40
 }
 
 # probably needs some adjustment before nazi occupation in 1940

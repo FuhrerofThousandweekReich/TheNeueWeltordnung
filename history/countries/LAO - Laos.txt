@@ -99,13 +99,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporativism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	corporativism = 100
 }
 
 create_country_leader = {

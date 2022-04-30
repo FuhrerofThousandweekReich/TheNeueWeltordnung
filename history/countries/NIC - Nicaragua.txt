@@ -81,21 +81,21 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	social_democracy = 15
+	corporativism = 5
+	soviet_socialism = 10
+	centrism = 70
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no

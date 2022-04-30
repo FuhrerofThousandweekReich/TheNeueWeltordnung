@@ -241,16 +241,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-	fascism = 20
-	communism = 9
-	neutrality = 53
+	social_democracy = 18
+	corporativism = 20
+	soviet_socialism = 9
+	centrism = 53
 }
 
 ### VARIANTS ###

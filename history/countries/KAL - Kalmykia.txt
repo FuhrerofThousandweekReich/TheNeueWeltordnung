@@ -79,17 +79,17 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 10
-	communism = 20
-	neutrality = 10
+	social_democracy = 60
+	corporativism = 10
+	soviet_socialism = 20
+	centrism = 10
 }
 
 recruit_character = KAL_im_badmayev

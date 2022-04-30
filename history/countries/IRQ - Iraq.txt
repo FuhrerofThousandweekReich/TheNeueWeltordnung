@@ -100,26 +100,26 @@ recruit_character = IRQ_nuri_as_said
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	corporativism = 20
+	centrism = 80
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 30
-		neutrality = 70
+		corporativism = 30
+		centrism = 70
 	}
 
 	recruit_character = IRQ_faisal_ii
