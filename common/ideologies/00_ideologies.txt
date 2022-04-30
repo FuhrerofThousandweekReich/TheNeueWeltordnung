@@ -19,12 +19,6 @@ ideologies = {
 			partisanism = {
 			}
 			
-			left_afrikanerism = {
-			}
-			
-			left_baathism = {
-			}
-			
 			revolutional_movement = {
 			}
 		}
