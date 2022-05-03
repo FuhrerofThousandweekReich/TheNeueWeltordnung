@@ -1,0 +1,16 @@
+characters = {
+	NNC_Sergunin = {
+		name = "Ivan Sergunin" 
+		portraits = {
+			civilian = {
+				large = gfx/leaders/NNC/Portrait_NNC_Sergunin.dds
+			}
+		}
+		country_leader = {
+			ideology =partisanism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
+	
