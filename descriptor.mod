@@ -1,4 +1,5 @@
 version="1.11.9"
+replace_path="events"
 tags={
 	"Alternative History"
 	"Events"
