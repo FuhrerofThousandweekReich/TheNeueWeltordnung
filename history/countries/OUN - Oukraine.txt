@@ -26,7 +26,7 @@ create_country_leader = {
     name = "Stepan Bandera"
     picture = gfx/leaders/OUN/Portrait_OUN_Bandera.dds
     expire = "1965.1.1"
-    ideology =corporativism_ideology
+    ideology =militarism
     traits = {
         man_of_the_nation nationalist_symbol dislikes_germany
     }

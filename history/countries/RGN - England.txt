@@ -12,13 +12,13 @@ recruit_character = RGN_Edward_VIII
 
 
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = right_wing_populism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_socialism = 100
+	right_wing_populism = 100
 }
 
 create_country_leader = {
@@ -26,7 +26,7 @@ create_country_leader = {
     name = "Edward VIII"
     picture = gfx/leaders/RGN/Portrait_RGN_Edward_VIII.dds
     expire = "1965.1.1"
-    ideology = nazism
+    ideology =coloborated_goverment
     traits = {
         great_architect man_of_the_nation nationalist_symbol empire_builder dislikes_germany
     }

@@ -871,8 +871,8 @@ RGN = {
 	color_ui = rgb { 176 16 48 }
 }
 OUN = {
-	color = rgb { 70 15 25 }
-	color_ui = rgb { 70 15 25 }
+	color = rgb { 74 27 0 }
+	color_ui = rgb { 74 27 0 }
 }
 PNZ = {
 	color = rgb { 237 41 178 }

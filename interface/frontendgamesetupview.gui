@@ -97,7 +97,7 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
-			orientation = "CENTER_UP"
+			orientation = "CENTER"
 			centerPosition = yes
 			scale = 0.55
 		}
@@ -106,7 +106,7 @@ guiTypes = {
 			name = "flag"
 			position = { x = 18 y = 35 }
 			quadTextureSprite ="GFX_mapicon_unit_flag_stripe"
-			orientation = "CENTER_DOWN"
+			orientation = "UPPER_LEFT"
 		}
 	}
 	
@@ -123,23 +123,23 @@ guiTypes = {
 		}
 	}
 	
-	### country entry
+	### 	 entry
 	containerWindowType = {
 		name = "country_entry"
 			
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 10000000 y = 10000000 }
-			scale=0.00
+			position = { x = 10000 y = 10000 }
+			scale=0.05
 			clicksound = click_checkbox
 		}
 	
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 34 y = 188 }
-			Orientation = "CENTER_DOWN"
+			position = { x = 192 y = 188 }
+			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
 	
@@ -152,7 +152,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 8 y = 247 }
+			position = { x = 192 y = 247 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131
@@ -171,8 +171,8 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 26 y = 22 }
-			Orientation = "CENTER_DOWN"
+			position = { x = 192 y = 22 }
+			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
 		
@@ -192,7 +192,7 @@ guiTypes = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
 			position = { x = 9 y = 8 }
-			Orientation = "CENTER_DOWN"
+			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 

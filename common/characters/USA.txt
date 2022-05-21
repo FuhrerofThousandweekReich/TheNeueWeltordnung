@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nacism
+			ideology =classical_nazism
 			expire = "1963.1.1.1"
 			id = -1
 		}

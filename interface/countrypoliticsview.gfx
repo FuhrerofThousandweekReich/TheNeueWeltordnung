@@ -483,7 +483,50 @@ spriteTypes = {
 		name = "GFX_ideology_militarist_nazism"
 		texturefile = "gfx/interface/ideologies/militarist_nazism.dds"
 	}
-	
+
+		spriteType = {
+		name = "GFX_ideology_corporativism_group"
+		texturefile = "gfx/interface/ideologies/corporativism_group.dds"
+	}
+
+		spriteType = {
+		name = "GFX_ideology_centrism_group"
+		texturefile = "gfx/interface/ideologies/centrism_group.dds"
+	}
+
+		spriteType = {
+		name = "GFX_ideology_right_wing_populism_group"
+		texturefile = "gfx/interface/ideologies/right_wing_populism_group.dds"
+	}
+
+		spriteType = {
+		name = "GFX_ideology_vanguardism_group"
+		texturefile = "gfx/interface/ideologies/vanguardism_group.dds"
+	}
+
+
+		spriteType = {
+		name = "GFX_ideology_ss_vision_nazism"
+		texturefile = "gfx/interface/ideologies/ss_vision_nazism.dds"
+	}
+
+
+		spriteType = {
+		name = "GFX_ideology_classic_fascism"
+		texturefile = "gfx/interface/ideologies/classic_fascism.dds"
+	}
+
+
+		spriteType = {
+		name = "GFX_ideology_partisanism"
+		texturefile = "gfx/interface/ideologies/partisanism.dds"
+	}
+
+		spriteType = {
+		name = "GFX_ideology_militarism_group"
+		texturefile = "gfx/interface/ideologies/militarism_group.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"

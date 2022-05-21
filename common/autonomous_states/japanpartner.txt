@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_reichspartner
+	id = autonomy_japanpartner
 	
 	default = yes
 	is_puppet = yes
@@ -38,8 +38,8 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
-		has_government = fascism
+		limit = { has_dlc = "Death or Dishonor" }
+		has_government = corporativism
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JAP } }

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=classic_fascism
 			traits={ emperor_showa empire_builder dislikes_germany man_of_the_nation staunched_monarchist }
 			expire="1963.1.1.1"
 			id=700

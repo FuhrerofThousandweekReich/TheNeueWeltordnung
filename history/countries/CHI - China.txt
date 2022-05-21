@@ -144,7 +144,7 @@ create_country_leader = {
     name = "Wāng Zhàomíng"
     picture = gfx/leaders/CHI/Portrait_China_Japan_Collab.dds
     expire = "1963.1.1"
-    ideology = corporativism_ideology
+    ideology = militarism
     traits = {
         eager_collaborator man_of_the_nation dislikes_germany
     }

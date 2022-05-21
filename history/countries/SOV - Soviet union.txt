@@ -1,0 +1,59 @@
+﻿capital = 570
+
+OOB = "SOV_1939"
+
+set_technology = {
+	infantry_weapons = 4
+	tech_support = 4
+	tech_recon = 4
+}
+
+recruit_character = SOV_Rodion_Malinovsky
+recruit_character = SOV_Dobroslav
+recruit_character = SOV_Sakharov
+
+
+set_politics = {
+	ruling_party = soviet_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	soviet_socialism = 93
+	social_democracy = 7
+}
+
+create_country_leader = {
+
+    name = "SOV_Rodionm"
+    picture = gfx/leaders/SOV/Portrait_Rodion_Malinovsky.dds
+    expire = "1966.1.1"
+    ideology =stalinism
+    traits = {
+        dislikes_germany
+    }
+
+create_country_leader = {
+
+    name = "SOV_Dobroslav"
+    picture = gfx/leaders/SOV/Portrait_Dobroslav.dds
+    expire = "1966.1.1"
+    ideology =militarist_nazism
+    traits = {
+        
+    }
+
+
+create_country_leader = {
+
+    name = "SOV_Sakharov"
+    picture = gfx/leaders/SOV/Portrait_Andrey_Sakharov.dds
+    expire = "1966.1.1"
+    ideology =classic_social_democracy
+    traits = {
+        
+    }
+
+set_convoys = 3
+

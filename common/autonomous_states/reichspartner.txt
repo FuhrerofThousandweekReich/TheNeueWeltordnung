@@ -38,12 +38,12 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
-		has_government = fascism
+		limit = { has_dlc = "Death or Dishonor" }
+		has_government = national_socialism
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
-			NOT = { OVERLORD = { original_tag = JAP } }
-			NOT = { OVERLORD = { original_tag = MAN } }
+			NOT = { OVERLORD = { original_tag = GER } }
+			NOT = { OVERLORD = { original_tag = USA } }
 		}
 	}
 

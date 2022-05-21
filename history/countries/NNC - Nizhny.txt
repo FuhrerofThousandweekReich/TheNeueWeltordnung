@@ -8,7 +8,7 @@ set_technology = {
 	tech_recon = 1
 }
 
-recruit_character = ALB_king_zog
+recruit_character = NNC_Sergunin
 recruit_character = ALB_enver_hoxha
 recruit_character = ALB_xhemal_aranitasi
 recruit_character = ALB_eqrem_belishi
@@ -44,5 +44,14 @@ set_popularities = {
 	centrism = 100
 }
 
+create_country_leader = {
+
+    name = "Ivan Sergunin"
+    picture = gfx/leaders/NNC/Portrait_NNC_Sergunin.dds
+    expire = "1965.1.1"
+    ideology =partisanism
+    traits = {
+        rearmer dislikes_germany snuggler
+    }
 set_convoys = 5
 
